@@ -1,0 +1,82 @@
+{
+  "feature": {
+    "id": "TestAPI",
+    "description": "This feature has CRUD operations for API",
+
+
+    "scenarios": {
+
+      "TestAPI_TS01": {
+        "uservice": "booker",
+        "basePath":"",
+        "doNotCompare": [
+          {
+            "path": "bookingid"
+          }
+        ],
+        "params": [
+          {
+            "name": "bookingid",
+            "value": "bookingid"
+          }
+        ]
+      },
+      "TestAPI_TS02": {
+        "uservice": "booker",
+        "basePath":"${bookingid}"
+      },
+      "TestAPI_TS03": {
+        "uservice": "booker",
+        "basePath":"${bookingid}",
+        "headerParams": [
+          {
+            "name": "Authorization",
+            "value": "Basic YWRtaW46cGFzc3dvcmQxMjM="
+          }
+        ]
+      },
+      "TestAPI_TS04": {
+        "uservice": "booker",
+        "basePath":"${bookingid}",
+        "headerParams": [
+          {
+            "name": "Authorization",
+            "value": "Basic YWRtaW46cGFzc3dvcmQxMjM="
+          }
+        ],
+        "doNotCompare": [
+          {
+            "path": "totalprice"
+          },
+          {
+            "path": "depositpaid"
+          },
+          {
+            "path": "bookingdates"
+          },
+          {
+            "path": "additionalneeds"
+          }
+        ]
+      },
+      "TestAPI_TS05": {
+        "uservice": "booker",
+        "basePath":"${bookingid}",
+        "headerParams": [
+          {
+            "name": "Authorization",
+            "value": "Basic YWRtaW46cGFzc3dvcmQxMjM="
+          },
+          {
+            "name": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "name": "Accept",
+            "value": "application/json"
+          }
+        ]
+      }
+    }
+  }
+}

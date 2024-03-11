@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="11.067">
+<testcase classname="This feature has CRUD operations for API" name="TestAPI_TS01" time="4.473">
+<system-out><![CDATA[Given I want to build the request with body.................................passed
+When I submit the "POST" request............................................passed
+Then The status code should be 200..........................................passed
+And The response body should be as expected.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="This feature has CRUD operations for API" name="TestAPI_TS02" time="1.59">
+<system-out><![CDATA[Given I want to build the request...........................................passed
+When I submit the "GET" request.............................................passed
+Then The status code should be 200..........................................passed
+And The response body should be as expected.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="This feature has CRUD operations for API" name="TestAPI_TS03" time="1.551">
+<system-out><![CDATA[Given I want to build the request with body.................................passed
+When I submit the "PUT" request.............................................passed
+Then The status code should be 200..........................................passed
+And The response body should be as expected.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="This feature has CRUD operations for API" name="TestAPI_TS04" time="1.533">
+<system-out><![CDATA[Given I want to build the request with body.................................passed
+When I submit the "PATCH" request...........................................passed
+Then The status code should be 200..........................................passed
+And The response body should be as expected.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="This feature has CRUD operations for API" name="TestAPI_TS05" time="1.503">
+<system-out><![CDATA[Given I want to build the request...........................................passed
+When I submit the "DELETE" request..........................................passed
+Then The status code should be 201..........................................passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,4 @@
+rootProject.name = 'nextuple-framework-assignment'
+include 'integration-tests'
+
+

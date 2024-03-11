@@ -1,0 +1,71 @@
+{
+  "feature": {
+    "id": "NeagtiveTestAPI",
+    "description": "This feature has CRUD operations for API",
+
+
+    "scenarios": {
+
+      "NegativeTestAPI_TS01": {
+        "uservice": "booker",
+        "basePath":"",
+        "params": [
+          {
+            "name": "bookingid",
+            "value": "bookingid"
+          }
+        ]
+      },
+      "NegativeTestAPI_TS02": {
+        "uservice": "booker",
+        "basePath":"-1"
+      },
+      "NegativeTestAPI_TS03": {
+        "uservice": "booker",
+        "basePath":"${bookingid}",
+        "headerParams": [
+          {
+            "name": "Authorization",
+            "value": "Basic xyz"
+          }
+        ]
+      },
+      "NegativeTestAPI_TS04": {
+        "uservice": "booker",
+        "basePath":"${bookingid}",
+        "doNotCompare": [
+          {
+            "path": "totalprice"
+          },
+          {
+            "path": "depositpaid"
+          },
+          {
+            "path": "bookingdates"
+          },
+          {
+            "path": "additionalneeds"
+          }
+        ]
+      },
+      "NegativeTestAPI_TS05": {
+        "uservice": "booker",
+        "basePath":"-1",
+        "headerParams": [
+          {
+            "name": "Authorization",
+            "value": "Basic YWRtaW46cGFzc3dvcmQxMjM="
+          },
+          {
+            "name": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "name": "Accept",
+            "value": "application/json"
+          }
+        ]
+      }
+    }
+  }
+}

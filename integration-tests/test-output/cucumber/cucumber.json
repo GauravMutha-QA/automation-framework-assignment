@@ -1,0 +1,548 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2024-03-08T12:57:27.432Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1572970615,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.before(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 515029,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.expectToFail()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "TestAPI_TS01",
+        "description": "  Description: This scenario verifies the creation of a new booking",
+        "id": "this-feature-has-crud-operations-for-api;testapi-ts01",
+        "after": [
+          {
+            "result": {
+              "duration": 3092382,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 465738264,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I want to build the request with body",
+            "match": {
+              "location": "stepdefinition.StepDefinition.iWantToBuildTheRequestWithBody()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2204674281,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I submit the \"POST\" request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"POST\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepdefinition.StepDefinition.iSubmitTheRequest(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3781897,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "The status code should be 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 26
+                }
+              ],
+              "location": "stepdefinition.StepDefinition.theStatusCodeShouldBeAsExpected(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 123595657,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "The response body should be as expected",
+            "match": {
+              "location": "stepdefinition.StepDefinition.theResponseBodyShouldBeAsExpected()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TestAPI"
+          },
+          {
+            "name": "@TestAPI_TS01"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-03-08T12:57:31.922Z",
+        "before": [
+          {
+            "result": {
+              "duration": 38508976,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.before(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 370603,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.expectToFail()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "TestAPI_TS02",
+        "description": "  Description: This scenario verifies getting a response",
+        "id": "this-feature-has-crud-operations-for-api;testapi-ts02",
+        "after": [
+          {
+            "result": {
+              "duration": 1415746,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 89900866,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I want to build the request",
+            "match": {
+              "location": "stepdefinition.StepDefinition.iWantToBuildTheRequest()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1370951782,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I submit the \"GET\" request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"GET\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepdefinition.StepDefinition.iSubmitTheRequest(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1352083,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "The status code should be 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 26
+                }
+              ],
+              "location": "stepdefinition.StepDefinition.theStatusCodeShouldBeAsExpected(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 79406306,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "The response body should be as expected",
+            "match": {
+              "location": "stepdefinition.StepDefinition.theResponseBodyShouldBeAsExpected()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TestAPI"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-03-08T12:57:33.526Z",
+        "before": [
+          {
+            "result": {
+              "duration": 33502786,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.before(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 997939,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.expectToFail()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "TestAPI_TS03",
+        "description": "  Description: This scenario verifies partial updation of a booking",
+        "id": "this-feature-has-crud-operations-for-api;testapi-ts03",
+        "after": [
+          {
+            "result": {
+              "duration": 415121,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 80405603,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I want to build the request with body",
+            "match": {
+              "location": "stepdefinition.StepDefinition.iWantToBuildTheRequestWithBody()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1359285769,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I submit the \"PUT\" request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"PUT\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepdefinition.StepDefinition.iSubmitTheRequest(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 303873,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "The status code should be 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 26
+                }
+              ],
+              "location": "stepdefinition.StepDefinition.theStatusCodeShouldBeAsExpected(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 69625025,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "The response body should be as expected",
+            "match": {
+              "location": "stepdefinition.StepDefinition.theResponseBodyShouldBeAsExpected()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TestAPI"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-03-08T12:57:35.088Z",
+        "before": [
+          {
+            "result": {
+              "duration": 25048950,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.before(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 271478,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.expectToFail()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "TestAPI_TS04",
+        "description": "  Description: This scenario verifies full updation of a booking",
+        "id": "this-feature-has-crud-operations-for-api;testapi-ts04",
+        "after": [
+          {
+            "result": {
+              "duration": 427918,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 80464246,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I want to build the request with body",
+            "match": {
+              "location": "stepdefinition.StepDefinition.iWantToBuildTheRequestWithBody()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1348323901,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I submit the \"PATCH\" request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"PATCH\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepdefinition.StepDefinition.iSubmitTheRequest(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 273447,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "The status code should be 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 26
+                }
+              ],
+              "location": "stepdefinition.StepDefinition.theStatusCodeShouldBeAsExpected(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 73512052,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "The response body should be as expected",
+            "match": {
+              "location": "stepdefinition.StepDefinition.theResponseBodyShouldBeAsExpected()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TestAPI"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-03-08T12:57:36.631Z",
+        "before": [
+          {
+            "result": {
+              "duration": 20437680,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.before(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 355315,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.expectToFail()"
+            }
+          }
+        ],
+        "line": 37,
+        "name": "TestAPI_TS05",
+        "description": "  Description: This scenario verifies deletion of a booking",
+        "id": "this-feature-has-crud-operations-for-api;testapi-ts05",
+        "after": [
+          {
+            "result": {
+              "duration": 666810,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinition.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 76075526,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I want to build the request",
+            "match": {
+              "location": "stepdefinition.StepDefinition.iWantToBuildTheRequest()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1400315011,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I submit the \"DELETE\" request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"DELETE\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepdefinition.StepDefinition.iSubmitTheRequest(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 609882,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "The status code should be 201",
+            "match": {
+              "arguments": [
+                {
+                  "val": "201",
+                  "offset": 26
+                }
+              ],
+              "location": "stepdefinition.StepDefinition.theStatusCodeShouldBeAsExpected(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TestAPI"
+          }
+        ]
+      }
+    ],
+    "name": "This feature has CRUD operations for API",
+    "description": "",
+    "id": "this-feature-has-crud-operations-for-api",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/TestAPI.feature",
+    "tags": [
+      {
+        "name": "@TestAPI",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
